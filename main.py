@@ -2,7 +2,6 @@ from fastapi import FastAPI, Request
 from fastapi.responses import HTMLResponse, JSONResponse
 from fastapi.templating import Jinja2Templates
 
-# from jwt_utils import create_jwt_token, decode_jwt_token
 import ai
 import db
 import secrets
